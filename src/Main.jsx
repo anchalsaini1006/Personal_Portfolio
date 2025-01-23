@@ -23,21 +23,22 @@ const Main = () => {
     className='Main' id="mainy">
       <div className="main_left">
         <h3 className='it_is_me'>Hey! It's Me</h3>
-        <h2 className='names'>Vamsi Praneeth</h2>
-        <p className='i_am_a'>I am a&nbsp;<span class="typewriter"></span></p>
+        <h2 className='names'>Anchal Saini</h2>
+        <p className='i_am_a'>I am Mern Stack Developer.<span class=""></span></p>
         
         <div className="flex1">
         <p className='follow_me'>follow me: </p>
         <div className="logos">
-        <a href="https://www.codechef.com/users/dark_knight31"><img src={codechef} alt="" /></a>
-        <a href="https://github.com/Praneeth2025" target="_blank" rel="noreferrer"><img src={github} alt=""  /></a>
-        <a href="https://www.linkedin.com/in/vamsi-praneeth-92458a259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer"><img src={linked_in} alt=""></img></a>
+        <a href="#"><img src={codechef} alt="" /></a>
+        <a href="https://github.com/anchalsaini1006" target="_blank" rel="noreferrer"><img src={github} alt=""  /></a>
+        <a href="https://www.linkedin.com/in/anchalsaini18?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer"><img src={linked_in} alt=""></img></a>
         <a href="https://leetcode.com/u/pG477o7BXM/" target="_blank" rel="noreferrer"><img src={leetcodes} alt=""></img></a>
         </div>
         </div>
         <div className="flex1">
         <a href="mailto:vamsipraneeth2004@gmail.com"><button className='buttonc'>E-Mail Me</button></a>
-        <button onClick={() => window.open("https://drive.google.com/file/d/1D0MarEA_vK0HZWumDiLTwoMApKx4UkQT/view?usp=sharing", "_blank")} className='buttonb'>Resume</button>
+        {/* <button onClick={() => window.open("https://drive.google.com/file/d/1D0MarEA_vK0HZWumDiLTwoMApKx4UkQT/view?usp=sharing", "_blank")} className='buttonb'>Resume</button> */}
+        <button onClick={() => window.open("https://drive.google.com/file/d/17hHizEpmKUDL0VM9U3_PVUoESf1tULSp/view?usp=sharing", "_blank")} className='buttonb'>Resume</button>
         </div>
       </div>
       <div className="right_main">

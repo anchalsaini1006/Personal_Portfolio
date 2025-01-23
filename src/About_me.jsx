@@ -26,7 +26,8 @@ const AboutMe = () => {
       className='about_me'  id="aboutMey">
       <h2 className='heading'>About Me</h2>
     <div className="about_me_info">
-        <p className='about_me_left'>Hello! I'm M. Vamsi Praneeth, a budding Full Stack Developer and AI/ML enthusiast. I am diving into front-end and back-end technologies, as well as exploring AI and machine learning tools like TensorFlow and PyTorch. Excited to connect and collaborate on innovative projects!</p>
+        <p className='about_me_left'>
+        Hello! I'm Anchal Saini, a budding MERN Stack Developer. I specialize in building dynamic, full-stack web applications using MongoDB, Express.js, React.js, and Node.js. I'm excited to connect and collaborate on innovative projects that push the boundaries of web development!</p>
         <div className="about_me_right"></div>
     </div>
 

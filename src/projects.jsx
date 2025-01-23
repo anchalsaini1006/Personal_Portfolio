@@ -1,41 +1,41 @@
 import React from 'react'
 import Card from './Card';
-import restaurant from"./images/ivan-stern-LOLSb7m6XkU-unsplash.jpg"
-import chess from"./images/chess.jpg"
-import snake from "./images/snake.jpg"
-import wise_way from"./images/wise_way.jpg"
+import mobile from"./images/Mobile.jpg"
+import job from"./images/Job.jpg"
+import todo from "./images/Todo.jpg"
+import portfolio from"./images/Portfolio.jpg"
 import { motion } from 'framer-motion';
 
 const Projects = () => {
     const cards = [
         {
-          imageUrl: restaurant,
-          altText: 'Resataurant website',
-          title: 'Restaurant Website',
-          description: 'A dynamic and responsive restaurant website showcasing menu, online reservations, customer reviews, and contact information.',
-          explore:"https://github.com/Praneeth2025/zenith-bistro"
+          imageUrl: mobile,
+          altText: 'Mobile Store',
+          title: 'Mobile Store',
+          description: 'A dynamic and responsive mobile website showcasing cart, price, customer reviews, and contact information.',
+          explore:"https://github.com/anchalsaini1006/e-commerce-website.git"
         },
         {
-          imageUrl:chess,
-          altText: 'Chess',
-          title: 'Chess image recognizer',
-          description: '"An AI-powered chess system that recognizes physical pieces and plays autonomously using computer vision and advanced game algorithms."',
-          explore:"https://github.com/Praneeth2025/chess-image-recognizer"
+          imageUrl:job,
+          altText: 'Jobs',
+          title: 'Job Platform',
+          description: '"A robust job platform built with the MERN stack, enabling seamless job postings, applications, and user management. Features include real-time updates, search filters, and secure authentication for employers and job seekers.."',
+          explore:"https://github.com/anchalsaini1006/JOB_PORTAL.git"
 
         },
         {
-          imageUrl: snake,
+          imageUrl: todo,
           altText: 'Canyons',
-          title: 'Gesture Snake Game',
-          description: "an innovative twist on the classic snake game, allowing players to control the snake's movements through hand gestures, providing an engaging and interactive gaming experience.",
-          explore:"https://github.com/Praneeth2025/Gesture-Snake"
+          title: 'Todo App',
+          description: "User create a todo , update, edit and delete with authtication. and user can watch job application response",
+          explore:"https://github.com/anchalsaini1006/Nested-Todo.git"
         },
         {
-            imageUrl: wise_way,
+            imageUrl: portfolio,
             altText: 'wise_way',
-            title: 'WiseWay',
-            description: "a web application that uses advanced algorithms to calculate the most cost-effective route between two points.",
-            explore:"https://github.com/Praneeth2025/WiseWay-website"
+            title: 'Animated Portfolio',
+            description: "An interactive and visually appealing animated portfolio built with React, showcasing skills, projects, and experiences through dynamic transitions and engaging animations. Designed to deliver a memorable and immersive user experience.",
+            explore:"https://github.com/anchalsaini1006/Animated-Portfolio-Project.git"
           }
       ];
 
